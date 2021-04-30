@@ -128,4 +128,3 @@ done
 
 EVAL_RESULT=$(jq -f jq_filter.txt ${IMAGE_ID}.json)
 echo ${EVAL_RESULT}
-
