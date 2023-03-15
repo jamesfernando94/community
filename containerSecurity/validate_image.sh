@@ -121,8 +121,8 @@ get_result
 
 while [ "${HTTP_CODE}" -ne "200" -o "${VULNS_AVAILABLE}" != true ]
 do
-	echo "Retrying after 10 seconds..."
-	sleep 10
+	echo "Retrying after 1 seconds..."
+	sleep 1
 	get_result
 done
 
